@@ -9,4 +9,10 @@ class Library
     @books = @lib_file ? YAML::load(File.read(@lib_file)) : []
   end
 
+  def get_books_in_category
+    @books.select do |book|
+      book.category == category
+    end
+  end
+
 end

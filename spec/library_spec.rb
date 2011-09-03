@@ -36,4 +36,9 @@ describe "Library Object" do
       end
     end
   end
+
+  it "returns all the books in a given category" do
+    @lib.get_books_in_category(:development).length.should == 0
+  end
+
 end
