@@ -1,4 +1,5 @@
 # run via rspec spec
+# spec spec --format nested
 
 require 'spec_helper'
 
@@ -13,7 +14,7 @@ describe Book do
       @book.should(be_an_instance_of(Book))
     end
 
-    it "throws an ArgumentError when given fewor than 3 parameters" do
+    it "throws an ArgumentError when given fewer than 3 parameters" do
       lambda { Book.new "Title", "Author" }.should raise_exception ArgumentError
     end
   end
