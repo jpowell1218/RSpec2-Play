@@ -1,0 +1,21 @@
+--- 
+- !ruby/object:Book 
+  author: Douglas Crawford
+  category: :development
+  title: Javascript tho good parts
+- !ruby/object:Book 
+  author: Jeffrey Zeldman
+  category: :design
+  title: Designing with web standards
+- !ruby/object:Book 
+  author: Steve Krug
+  category: :development
+  title: Don't Make Me Think
+- !ruby/object:Book 
+  author: Stoya Stefanov
+  category: :development
+  title: Javascript Patterns
+- !ruby/object:Book 
+  author: Ethan Marcotte
+  category: :design
+  title: Responsive Web Design
